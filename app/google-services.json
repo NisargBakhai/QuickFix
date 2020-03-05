@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "835465656653",
+    "firebase_url": "https://quickfix-bad6f.firebaseio.com",
+    "project_id": "quickfix-bad6f",
+    "storage_bucket": "quickfix-bad6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835465656653:android:1fcda9ae30681bb24c9f04",
+        "android_client_info": {
+          "package_name": "com.example.quickfix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835465656653-p2j4399nq43hsr6141ga6smub0q0ar4o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quickfix",
+            "certificate_hash": "e5d5b2727b8b9430a84e92f1c095a8c44864f9e8"
+          }
+        },
+        {
+          "client_id": "835465656653-s8mkm9avhotrc228m26v7b8ma0ca827r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2dXl6BDQAvTGnpjccwNfhFMWsdUFZ-W8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835465656653-jkgh4udegnn8qeronmgqbm2joktklnd5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

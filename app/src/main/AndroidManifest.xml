@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quickfix">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".NotificationActivity"></activity>
+        <activity android:name=".bookingp" />
+        <activity android:name=".bookinge" />
+        <activity android:name=".thnx" />
+        <activity android:name=".booking" />
+        <activity
+            android:name=".relectricianssss"
+            android:noHistory="true" />
+        <activity
+            android:name=".relectriciansss"
+            android:noHistory="true" />
+        <activity
+            android:name=".relectricianss"
+            android:noHistory="true" />
+        <activity
+            android:name=".relectricians"
+            android:noHistory="true" />
+        <activity
+            android:name=".belectricianssss"
+            android:noHistory="true" />
+        <activity
+            android:name=".belectriciansss"
+            android:noHistory="true" />
+        <activity
+            android:name=".belectricianss"
+            android:noHistory="true" />
+        <activity
+            android:name=".belectricians"
+            android:noHistory="true" />
+        <activity
+            android:name=".aelectricianssss"
+            android:noHistory="true" />
+        <activity
+            android:name=".aelectriciansss"
+            android:noHistory="true" />
+        <activity
+            android:name=".aelectricianss"
+            android:noHistory="true" />
+        <activity
+            android:name=".aelectricians"
+            android:noHistory="true" />
+        <activity
+            android:name=".bplumberssss"
+            android:noHistory="true" />
+        <activity
+            android:name=".bplumbersss"
+            android:noHistory="true" />
+        <activity
+            android:name=".bplumberss"
+            android:noHistory="true" />
+        <activity
+            android:name=".bplumbers"
+            android:noHistory="true" />
+        <activity
+            android:name=".rplumberssss"
+            android:noHistory="true" />
+        <activity
+            android:name=".rplumbersss"
+            android:noHistory="true" />
+        <activity
+            android:name=".rplumberss"
+            android:noHistory="true" />
+        <activity
+            android:name=".rplumbers"
+            android:noHistory="true" />
+        <activity
+            android:name=".aplumberssss"
+            android:noHistory="true" />
+        <activity
+            android:name=".aplumbersss"
+            android:noHistory="true" />
+        <activity
+            android:name=".aplumberss"
+            android:noHistory="true" />
+        <activity
+            android:name=".aplumbers"
+            android:noHistory="true" />
+        <activity
+            android:name=".bcarpenterssss"
+            android:noHistory="true" />
+        <activity
+            android:name=".bcarpentersss"
+            android:noHistory="true" />
+        <activity
+            android:name=".bcarpenterss"
+            android:noHistory="true" />
+        <activity
+            android:name=".bcarpenters"
+            android:noHistory="true" />
+        <activity
+            android:name=".rcarpenterssss"
+            android:noHistory="true" />
+        <activity
+            android:name=".rcarpentersss"
+            android:noHistory="true" />
+        <activity
+            android:name=".rcarpenterss"
+            android:noHistory="true" />
+        <activity
+            android:name=".rcarpenters"
+            android:noHistory="true" />
+        <activity
+            android:name=".acarpenterssss"
+            android:noHistory="true" />
+        <activity
+            android:name=".acarpentersss"
+            android:noHistory="true" />
+        <activity
+            android:name=".acarpenterss"
+            android:noHistory="true" />
+        <activity
+            android:name=".acarpenters"
+            android:noHistory="true" />
+        <activity
+            android:name=".google"
+            android:noHistory="true" />
+        <activity
+            android:name=".belectrician"
+            android:noHistory="true" />
+        <activity
+            android:name=".relectrician"
+            android:noHistory="true" />
+        <activity
+            android:name=".aelectrician"
+            android:noHistory="true" />
+        <activity
+            android:name=".bcarpenter"
+            android:noHistory="true" />
+        <activity
+            android:name=".rcarpenter"
+            android:noHistory="true" />
+        <activity
+            android:name=".acarpenter"
+            android:noHistory="true" />
+        <activity
+            android:name=".bplumber"
+            android:noHistory="true" />
+        <activity
+            android:name=".rplumber"
+            android:noHistory="true" />
+        <activity
+            android:name=".aplumber"
+            android:noHistory="true" />
+        <activity android:name=".Carpenters" />
+        <activity android:name=".Electricians" />
+        <activity android:name=".Plumbers" />
+        <activity android:name=".forgot_password" />
+        <activity android:name=".FirstPageAfterLogin" />
+        <activity android:name=".signup" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/splashstyle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
