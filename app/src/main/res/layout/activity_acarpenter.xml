@@ -19,15 +19,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <Button
-        android:id="@+id/next"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="2dp"
-        android:text="Next"
-        app:layout_constraintBottom_toBottomOf="@+id/background"
-        app:layout_constraintEnd_toEndOf="@+id/background" />
-
     <TextView
         android:id="@+id/name"
         android:layout_width="wrap_content"
@@ -71,6 +62,14 @@
         android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/phno" />
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/ic_navigate_next_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="@+id/background" />
 
     <Button
         android:id="@+id/bookb"
@@ -84,7 +83,17 @@
         app:layout_constraintHorizontal_bias="0.456"
         app:layout_constraintStart_toEndOf="@+id/background"
         app:layout_constraintTop_toBottomOf="@+id/background"
-        app:layout_constraintVertical_bias="0.152" />
+        app:layout_constraintVertical_bias="0.262" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b_nav"
+        app:itemBackground="@color/colorPrimary"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        app:layout_constraintTop_toBottomOf="@+id/next"
+        android:layout_marginTop="1dp"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

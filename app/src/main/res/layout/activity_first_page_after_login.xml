@@ -7,11 +7,12 @@
     android:orientation="vertical"
     tools:context=".FirstPageAfterLogin">
 
+
     <androidx.cardview.widget.CardView
         android:id="@+id/electrician"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         app:cardCornerRadius="20dp"
@@ -46,11 +47,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
+            android:layout_marginStart="37dp"
             android:layout_marginTop="120dp"
             android:text="ELECTRICIAN"
             android:textColor="#FFFFFF"
-            android:textSize="45sp">
+            android:textSize="40sp"
+            android:textAlignment="center">
 
 
         </TextView>
@@ -60,8 +62,8 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/carpenter"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         app:cardCornerRadius="20dp"
@@ -95,11 +97,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="28dp"
+            android:layout_marginStart="45dp"
             android:layout_marginTop="120dp"
             android:text="CARPENTER"
             android:textColor="#FFFFFF"
-            android:textSize="50sp">
+            android:textSize="40sp">
 
 
         </TextView>
@@ -108,12 +110,12 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/plumber"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         app:cardCornerRadius="20dp"
-        app:cardBackgroundColor="#FF2196F3">
+        app:cardBackgroundColor="#FF2196F3">>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -143,13 +145,24 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="35dp"
+            android:layout_marginStart="70dp"
             android:layout_marginTop="120dp"
             android:text="PLUMBER"
             android:textColor="#FFFFFF"
-            android:textSize="55sp">
-
-
+            android:textSize="40sp"
+            android:textAlignment="center">
         </TextView>
+
     </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_marginTop="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b_nav"
+        app:itemBackground="@color/colorPrimary"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"/>
 </LinearLayout>

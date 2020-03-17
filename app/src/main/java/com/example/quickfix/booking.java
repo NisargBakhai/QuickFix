@@ -15,6 +15,7 @@ import android.provider.ContactsContract;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class booking extends AppCompatActivity {
     TextView tv1;
@@ -32,26 +33,14 @@ public class booking extends AppCompatActivity {
         confirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String message = "Booking Confirmed";
-                NotificationCompat.Builder builder= new NotificationCompat.Builder(
-                        booking.this
-                )
-                        .setSmallIcon(R.drawable.ic_message)
-                        .setContentTitle("Booking Confirmed")
-                        .setContentText(message)
-                        .setAutoCancel(true);
-                Intent intent = new Intent(booking.this,NotificationActivity.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                intent.putExtra("message",message);
+                Toast.makeText(booking.this,"Successful,You Will Receive Confirmation Email",Toast.LENGTH_SHORT).show();
 
-                PendingIntent pendingIntent = PendingIntent.getActivity(booking.this,0,intent,PendingIntent.FLAG_UPDATE_CURRENT);
-                builder.setContentIntent(pendingIntent);
-                NotificationManager notificationManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
-                notificationManager.notify(0,builder.build());
+            }
+        });
             }
 
 
 
-        });
+
     }
-}
+

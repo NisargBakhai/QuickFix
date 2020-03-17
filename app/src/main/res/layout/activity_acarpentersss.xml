@@ -22,7 +22,8 @@
         android:id="@+id/next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/ic_navigate_next_black_24dp"
         app:layout_constraintBottom_toBottomOf="@+id/background"
         app:layout_constraintEnd_toEndOf="@+id/background" />
 
@@ -30,7 +31,8 @@
         android:id="@+id/previous"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Previous"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/ic_navigate_before_black_24dp"
         app:layout_constraintBottom_toBottomOf="@+id/background"
         app:layout_constraintStart_toStartOf="@+id/background" />
     <TextView
@@ -88,6 +90,19 @@
         app:layout_constraintHorizontal_bias="0.456"
         app:layout_constraintStart_toEndOf="@+id/background"
         app:layout_constraintTop_toBottomOf="@+id/background"
-        app:layout_constraintVertical_bias="0.152" />
+        app:layout_constraintVertical_bias="0.253" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/b_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/next"
+        app:menu="@menu/menu_navigation" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

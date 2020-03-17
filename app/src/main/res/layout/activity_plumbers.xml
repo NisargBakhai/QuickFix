@@ -10,7 +10,7 @@
         android:id="@+id/ahmedabad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="9dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         app:cardBackgroundColor="@color/colorAccent"
@@ -50,7 +50,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="130dp"
             android:background="@drawable/rajkotbg"
             >
 
@@ -61,7 +61,7 @@
             android:text="RAJKOT"
             android:textColor="#FFFFFF"
             android:textSize="50sp"
-            android:layout_marginTop="140dp"
+            android:layout_marginTop="120dp"
             android:layout_marginLeft="124dp"
             >
         </TextView>
@@ -78,7 +78,7 @@
         app:cardElevation="15dp">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="130dp"
             android:background="@drawable/barodabg"
             >
 
@@ -90,9 +90,19 @@
             android:text="BARODA"
             android:textColor="#FFFFFF"
             android:textSize="40sp"
-            android:layout_marginTop="140dp"
+            android:layout_marginTop="120dp"
             android:layout_marginLeft="152dp"
             >
         </TextView>
     </androidx.cardview.widget.CardView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_marginTop="11dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b_nav"
+        app:itemBackground="@color/colorPrimary"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"/>
 </LinearLayout>
